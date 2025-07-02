@@ -10,9 +10,8 @@ This repository has multiple tags that relate to Almalinux versions.
 
 |Debian Version|Docker image tag|
 |--------------|----------------------|
-| buster (10)   |10, buster           |
-| bullseye (11) |11, bullseye, latest |
-| bookworm (12} |12, bookworm         |
+| bullseye (11) |11, bullseye         |
+| bookworm (12} |12, bookworm, latest |
 
 Manually starting
 -----------------

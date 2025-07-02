@@ -18,26 +18,20 @@ jobs:
     strategy:
       matrix:
         include:
-          - context: 10
-            tags: |
-              ${{ github.repository }}:10
-              ghcr.io/${{ github.repository }}:10
-              ${{ github.repository }}:buster
-              ghcr.io/${{ github.repository }}:buster
           - context: 11
             tags: |
               ${{ github.repository }}:11
               ghcr.io/${{ github.repository }}:11
               ${{ github.repository }}:bullseye
               ghcr.io/${{ github.repository }}:bullseye
-              ${{ github.repository }}:latest
-              ghcr.io/${{ github.repository }}:latest
           - context: 12
             tags: |
               ${{ github.repository }}:12
               ghcr.io/${{ github.repository }}:12
               ${{ github.repository }}:bookworm
               ghcr.io/${{ github.repository }}:bookworm
+              ${{ github.repository }}:latest
+              ghcr.io/${{ github.repository }}:latest
 
     steps:
       - uses: actions/checkout@v4

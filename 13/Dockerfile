@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:trixie
 
 LABEL maintainer="mullholland"
 LABEL build_date="2025-07-02"

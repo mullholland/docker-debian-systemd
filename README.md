@@ -9,9 +9,9 @@ Branches
 This repository has multiple tags that relate to Almalinux versions.
 
 |Debian Version|Docker image tag|
-|--------------|----------------------|
-| bullseye (11) |11, bullseye         |
-| bookworm (12} |12, bookworm, latest |
+|---------------|--------------------|
+| bookworm (12) | 12, bookworm       |
+| trixie   (13) | 13, trixie, latest |
 
 Manually starting
 -----------------

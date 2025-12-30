@@ -20,16 +20,16 @@ jobs:
         include:
           - context: 11
             tags: |
-              ${{ github.repository }}:11
-              ghcr.io/${{ github.repository }}:11
-              ${{ github.repository }}:bullseye
-              ghcr.io/${{ github.repository }}:bullseye
-          - context: 12
-            tags: |
               ${{ github.repository }}:12
               ghcr.io/${{ github.repository }}:12
               ${{ github.repository }}:bookworm
               ghcr.io/${{ github.repository }}:bookworm
+          - context: 12
+            tags: |
+              ${{ github.repository }}:13
+              ghcr.io/${{ github.repository }}:13
+              ${{ github.repository }}:trixie
+              ghcr.io/${{ github.repository }}:trixie
               ${{ github.repository }}:latest
               ghcr.io/${{ github.repository }}:latest
 

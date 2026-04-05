@@ -1,7 +1,7 @@
 FROM debian:trixie
 
 LABEL maintainer="mullholland"
-LABEL build_date="2025-07-02"
+LABEL build_date="2026-04-05"
 
 ARG DEBIAN_FRONTEND=noninteractive
 

@@ -20,6 +20,7 @@ Manually starting
 docker run \
   --tty \
   --privileged \
-  --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
+  --cgroupns=host \
+  --volume /sys/fs/cgroup:/sys/fs/cgroup:rw \
   mullholland/docker-debian-systemd
 ```
